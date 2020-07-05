@@ -1,0 +1,47 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "fix printersss",
+      "tech": "Clararita",
+      "attention": false,
+      "date": "2020-07-05T15:09:28.297Z"
+    },
+    {
+      "id": 2,
+      "message": "set up new workstation$$$",
+      "tech": "John Wilson",
+      "attention": true,
+      "date": "2020-07-05T15:02:44.741Z"
+    },
+    {
+      "id": 3,
+      "message": "Need to fix a new hard drive",
+      "tech": "Gucci Mane",
+      "attention": true,
+      "date": "2020-07-05T14:55:28.632Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Kazu",
+      "lastName": "Gucci",
+      "id": 4
+    }
+  ]
+}
