@@ -3,9 +3,9 @@
     {
       "id": 1,
       "message": "fix printersss",
-      "tech": "Clararita",
+      "tech": "Kazu  Gucci",
       "attention": false,
-      "date": "2020-07-05T15:09:28.297Z"
+      "date": "2020-07-06T05:52:03.500Z"
     },
     {
       "id": 2,
@@ -20,6 +20,13 @@
       "tech": "Gucci Mane",
       "attention": true,
       "date": "2020-07-05T14:55:28.632Z"
+    },
+    {
+      "message": "hey guys the tariyaki recipe looks 🔥",
+      "attention": true,
+      "tech": "John{''}Doe",
+      "date": "2020-07-06T05:51:34.647Z",
+      "id": 4
     }
   ],
   "techs": [
@@ -42,6 +49,21 @@
       "firstName": "Kazu",
       "lastName": "Gucci",
       "id": 4
+    },
+    {
+      "firstName": "Andy",
+      "lastName": "Wu",
+      "id": 11
+    },
+    {
+      "firstName": "awdwad",
+      "lastName": "wadwad",
+      "id": 12
+    },
+    {
+      "firstName": "Kazufumi",
+      "lastName": "Onishi",
+      "id": 14
     }
   ]
 }

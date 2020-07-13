@@ -7,7 +7,7 @@ import { getLogs } from '../../store/actions/logAction';
 //                   brought in from mapStateToProps which is the initial state below
 // when bringing in action, action becomes a prop
 
-const Logs = ({ log: { logs, loading }, getLogs }) => {
+const Logs = ({ log: { logs, loading },   }) => {
   useEffect(() => {
     getLogs();
     // eslint-disable-next-line
