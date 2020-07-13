@@ -1,5 +1,5 @@
 {
-  "name": "git-searcher",
+  "name": "redux-proj",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,13 +7,21 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-moment": "^0.9.7",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "json-server": "json-server --watch db.json --port 5000",
+    "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,7 +42,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "2.0.5"
-  }
+    "concurrently": "^5.2.0",
+    "json-server": "^0.16.1"
+  },
+  "proxy": "http://localhost:5000"
 }
